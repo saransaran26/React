@@ -12,7 +12,6 @@ function Price() {
   //       <h5>Card title</h5>
   //       <h5>Card title</h5>
   //       <h5>Card title</h5>
-  //       <h5>Card title</h5>
   //     </div>
   //   </div>
   //  </div>
