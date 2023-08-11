@@ -73,9 +73,53 @@ button:focus-visible {
 h1{
   color:green;
 }
-/* .top{
+.top{
   display: flex;
   flex-direction: column;
   background-color: red;
   margin: 0px auto;
-} */
+}
+.navbar .navbar-brand{
+  margin-left: 20px;
+  font-size: 35px;
+  font-weight: 600;
+}
+.mx-auto a{
+  font-weight: 400;
+  font-size: 20px;
+}
+.mx-auto a:hover{
+  border-bottom: 2px solid black;
+}
+#navbarSupportedContent button{
+  border-radius: 7px;
+}
+.navbar{
+  box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+  position: sticky;
+  top: 0;
+  left:0;
+  z-index: 100;
+  padding: .5rem .5rem;
+}
+#home{
+  min-height: 100vh;
+  width:100%;
+}
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#home h2,h3{
+  color:white;
+}
+#home h2{
+  font-size: 100px;
+  letter-spacing: 1px;
+}
+#home h3{
+  margin-top: 20px;
+}

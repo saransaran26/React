@@ -7,7 +7,30 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <h1 className='text-center p-2'>Shopping Cart</h1>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Shopping Cart</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#product">Products</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<section id="home">
+  <h2 id="black">Shop in Style</h2>
+  <h3>With this shop hompeage template</h3>
+</section>
+    <section id="product">
+      <h1 className='text-center p-5'>Choose Your Products</h1>
     <div className='container'>
       <div className='row'>
     <App name="Men's Shirt" rate="$350-$600" src="https://img.freepik.com/free-photo/men-s-formal-wear-collection_53876-16559.jpg"/>
@@ -24,7 +47,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App name="Sport's Tshirt" rate="$250-$350" src="https://images-eu.ssl-images-amazon.com/images/I/911zmGPDGdL._AC_UL420_SR420,420_.jpg"/>
     </div>
     </div>
+    </section>
     {/* <Home></Home> */}
     {/* <Mytype></Mytype> */}
   </React.StrictMode>,
 )
+

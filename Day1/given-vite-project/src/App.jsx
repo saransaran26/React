@@ -2,26 +2,42 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './main.jsx'
 
 function App(props) {
-
+  // let[count,setcount] = useState(0)
+  let count = 0
+    let counted = true
     let[ifClicked,changing] = useState(
        "Add to Cart"
     )
-    let[count,setcount] = useState(0)
+
+    function foo(ifClicked){
+      if(ifClicked=='Add to Cart'){
+        count = count + 1
+        console.log(count);
+      }
+      else{
+        count = count - 1
+        console.log(count);
+
+      }
+    }
+
+
   function cart(ifClicked){
     if(ifClicked=='Add to Cart'){
+      foo(ifClicked)
       ifClicked = "Remove From cart"
-      setcount(count+1)
       changing(ifClicked)
     }
     else{
+      foo(ifClicked)
       ifClicked = "Add to Cart"
-      setcount(count-1)
       changing(ifClicked)
     }
   }
-{/* <button className="btn btn-primary">hello</button> */}
+
   return (
       <div className="col-lg-3 col-md-3 col-sm-12">
       <div class="card">
@@ -29,12 +45,10 @@ function App(props) {
           <div class="card-body">
           <h5 class="card-title">{props.name}</h5>
           <h5 class="card-title">{props.rate}</h5>
-          {/* <a href="#" class="btn btn-primary">Add to cart</a> */}
           <button class="btn btn-primary" onClick={()=>cart(ifClicked)}>{ifClicked}</button>
      </div>
      </div>
      </div>
-
   )
   
 }
