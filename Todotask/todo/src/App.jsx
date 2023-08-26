@@ -11,7 +11,16 @@ function App() {
   const [isCompletedScreen,setIsCompletedScreen] = useState(false)
 
   const handleTodoitem = () => {
-    let todoData = {
+    let name = document.getElementById("name").value
+    let description = document.getElementById("description").value
+    if(name==''){
+      alert("Please enter the Todo name")
+    }
+    else if(description==''){
+      alert("Please enter the Todo description")
+    }
+    else{
+      let todoData = {
       title:newtitle,
       description:newdescription
     }
@@ -22,7 +31,7 @@ function App() {
     localStorage.setItem('todolist',JSON.stringify(updatedTodo))
     document.getElementById("name").value = ""
     document.getElementById("description").value = ""
-    
+    }  
   }
 
   useEffect(()=>{
