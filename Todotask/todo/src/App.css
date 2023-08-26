@@ -1,0 +1,116 @@
+ body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todolist{
+  display: flex;
+}
+@media screen and (max-width:990px){
+  .todolist{
+    display: flex;
+    flex-direction: column;
+  }
+  .todolist button{
+    margin-top: 20px;
+    width:100px
+  }
+  .inputbox input{
+    width:420px !important;
+    margin-left: 10px;
+  }
+  .inputbox label{
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .todolist button{
+    margin-left: 10px;
+  }
+  .todomain{
+    margin-top: 40px !important;
+    margin-left: 10px;
+  }
+}
+.inputbox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+.inputbox label{
+  font-weight: 600;
+}
+.inputbox input{
+  width: 480px;
+  height:45px;
+  padding: 10px;;
+}
+.todolist button{
+  width: 80px;
+  height:45px;
+  margin-top: 30px; 
+}
+.todolist{
+  margin-top: 30px;
+}
+.inputbox input:hover{
+  border: 1px solid rgb(78, 78, 253);
+}
+h1{
+  color:red;
+}
+.todomain{
+  margin-top: 70px;
+}
+.todomain .firstbtn{
+  width: 80px;
+  height:45px;
+  background-color: rgb(92, 92, 92);
+  color:white;
+  border: none;
+}
+.todomain .secondbtn{
+  width: auto;
+  height:45px;
+  margin-left: 20px;
+  background-color: rgb(92, 92, 92);
+  color:white;
+  border: none;
+}
+.todomain .active{
+  background-color: rgb(4, 192, 104);
+  border:none;
+}
+.names{
+  background-color:rgb(92,92,92) ;
+  margin-top: 40px;
+  padding: 10px;
+}
+.names .content1{
+  width: 80px;
+  height:45px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.names .content2{
+  width: 100px;
+  height:45px;
+  margin-left: 20px;
+}
+.names h2{
+  color: red;
+  font-weight: 700;
+}
+.names p{
+  color:white;
+  font-weight: 500;
+}
+.names h2,p{
+  padding-left: 9px;
+  padding-top: 9px;
+}
+
+ 
+
+
+ 

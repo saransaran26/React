@@ -1,0 +1,141 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+body{
+  background-color: aliceblue;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form input{
+  width: 500px;
+  padding: 10px;
+}
+.form input button{
+  height: 100px;
+}
+.cardhead{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card h6{
+  margin-top: 25px;
+
+}
+.dropdown-toggle{
+  margin-left: 20px;
+}
+.card .btn-info,.btn-danger{
+  margin-top: 25px;
+}
+.card .btn-danger{
+  margin-left: 25px;
+}
+.card{
+  margin-top: 35px;
+  background-color: rgb(150, 242, 150);
+}
+.cardhead h3{
+  margin-top: 45px;
+}
+/* .dropdown .dropdown-toggle{
+  margin-top: 35px;
+} */
+h2{
+  color:rgb(0, 136, 0)
+}
+.form input{
+  border: 1px solid green;
+}
+.form input:hover{
+  border: 2px solid green;
+}
+.card-body .card-subtitle{
+  font-weight: 600;
+}
+.card{
+  width: 20rem;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: auto;
+}
+.main{
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+   align-items: center;
+}
+.main h2{
+  color: black;
+  text-align: center;
+}
