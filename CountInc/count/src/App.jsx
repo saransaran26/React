@@ -88,9 +88,7 @@ function App(props) {
           <h6>Get Daily Cash With Nespola Card</h6>
         </div>
       </div>
-    </div>
-
-    
+    </div> 
   )
 }
 
