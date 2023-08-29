@@ -31,7 +31,6 @@ function App(props) {
       setdata(ans)
   } 
   }
-
    const handleRemove = () =>{
     setCount(props.count)
     setdata(props.price)
