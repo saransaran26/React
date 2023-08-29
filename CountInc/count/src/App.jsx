@@ -35,7 +35,6 @@ function App(props) {
     setCount(props.count)
     setdata(props.price)
    }
-  
   return (
     <div className="container main">
       <div className="row">
