@@ -18,7 +18,6 @@ function App(props) {
     var added = count +1
     var ans = added * pricenum
     setdata(ans)
-    
   }
 
   const handleDre = () => {
