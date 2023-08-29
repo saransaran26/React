@@ -68,7 +68,6 @@ function App(props) {
           <h4>Shipping</h4>
         </div>
         <div className="col-5">
-
         </div>
         <div className="col-3">
           <h4>${data}</h4>
