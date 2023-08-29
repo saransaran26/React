@@ -24,7 +24,6 @@ function App(props) {
   const handleDre = () => {
     // const innernum = parseInt(document.getElementById("nums").innerHTML)
     if(count-1>=0){
- 
       setCount(count-1)
       var pricenum = (props.price)
       var ans = 0
