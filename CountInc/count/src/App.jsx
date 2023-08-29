@@ -5,8 +5,6 @@ import './App.css'
 
 
 function App(props) {
-  console.log("starting");
- // const initialValue = props.count
   const[data,setdata] = useState(props.price)
   const[count,setCount] = useState(props.count)
 
@@ -19,7 +17,6 @@ function App(props) {
     var pricenum = (props.price)
     var ans = 0
     var added = count +1
-    console.log(added);
     var ans = added * pricenum
     setdata(ans)
     
