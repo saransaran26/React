@@ -19,7 +19,7 @@ function App(props) {
     var pricenum = (props.price)
     var ans = 0
     var added = count +1
-    // console.log(added);
+    console.log(added);
     var ans = added * pricenum
     setdata(ans)
     
