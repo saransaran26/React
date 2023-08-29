@@ -18,7 +18,7 @@ function App(props) {
     setCount(count+1)
     var pricenum = (props.price)
     var ans = 0
-    var added = count+1
+    var added = count + 1
     var ans = added * pricenum
     setdata(ans)
     
