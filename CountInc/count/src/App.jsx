@@ -10,7 +10,6 @@ function App(props) {
 
   const handleInce = () => {
     // const innernum = parseInt(document.getElementById("nums").innerHTML)
-    // console.log(innernum);
     // var inc = innernum+1;
     // document.getElementById("nums").innerHTML = inc
     setCount(count+1)
