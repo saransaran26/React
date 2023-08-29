@@ -1,0 +1,29 @@
+.main{
+  margin-top: 40px;
+  border: 2px solid black;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.main img{
+  height: 200px;
+  margin-top: 20px;
+}
+.hrs{
+  border: 1px solid black;
+}
+.button button{
+  border: 1px solid black;
+  width: 30px;
+}
+.btnNum{
+  color:red;
+}
+
+@media screen and(max-width:765px) {
+  .button button{
+    width:20px !important;
+  }
+}
