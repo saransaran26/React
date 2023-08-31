@@ -1,0 +1,87 @@
+.main h2{
+  text-align: center;
+}
+.fullbox{
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  grid-gap:5px;
+  margin-top: 60px;
+  margin-left: 40%;
+}
+/* .winnerbox button{
+  margin-left: 46%;
+} */
+.main .box{
+  font-size: 40px;
+}
+.winnerbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.winnerbox button{
+  margin-left: 15px;
+  height: 50px;
+  margin-top: 38px;
+}
+@media screen and (max-width:1050px) {
+  .fullbox{
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width:700px) {
+  .fullbox{
+    margin-left: 28%;
+  }
+}
+@media screen and (max-width:520px) {
+  .fullbox{
+    margin-left: 22%;
+  }
+}
+@media screen and (max-width:460px) {
+  .fullbox{
+    margin-left: 16%;
+  }
+}
+@media screen and (max-width:410px) {
+  .fullbox{
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width:370px) {
+  .fullbox{
+    margin-left: 8%;
+  }
+}
+@media screen and (max-width:350px) {
+  .fullbox{
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width:335px) {
+  .fullbox{
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width:325px) {
+  .fullbox{
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width:300px) {
+  .main h2{
+    text-align: center;
+  }
+}
+.box{
+  width:100px;
+  height: 100px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+}
+.box:hover{
+  background-color: #e0e0e0;
+}
