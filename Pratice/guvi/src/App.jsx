@@ -2,23 +2,19 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
-
-
  import './App.css'
-import Pratice from './Pratice'
+import ChangeName from './ChangeName'
 import SetName from './SetName'
-
-
-
-
+import {HandleName} from './CricketContext'
+import Robot from './Robot'
 
 
 function App() {
+  
 
   return (
    <>
-   {/* <SetName></SetName> */}
-   <Pratice></Pratice>
+   <Robot></Robot>
    </>
     
   )

@@ -1,13 +1,16 @@
-import React, { useContext } from 'react'
-import { CricketContext } from './CricketContext'
+import React from 'react'
+import { useContext } from 'react'
+import { NameContext } from './CricketContext'
 
 function ChangeName() {
-  const {setAge} = useContext(CricketContext)
-  const changeAge = (newAge) => {
-      setAge(newAge)
+  const{setNames} = useContext(NameContext)
+  const handlehere = (data) =>{
+    setNames(data)
   }
   return (
-    <button onClick={()=>changeAge('22')}>Click To Change</button>
+    <div>
+      <button onClick={()=>handlehere("tamil")}>click to change Name</button>
+    </div>
   )
 }
 

@@ -1,15 +1,15 @@
-import React ,{ createContext , useContext , useState} from 'react'
+import React,{createContext,useContext,useState} from 'react'
 
-const CricketContext = createContext()
+const NameContext = createContext()
 
-function HandleAllData({children}){
-    const[age,setAge] = useState('38')
+function HandleName({children}){
+    const[names,setNames] = useState("SARAN")
 
     return (
-        <CricketContext.Provider value={{age,setAge}}>
+        <NameContext.Provider value={{names,setNames}}>
             {children}
-        </CricketContext.Provider>
+        </NameContext.Provider>
     )
 }
 
-export {CricketContext,HandleAllData}
+export {NameContext,HandleName}
