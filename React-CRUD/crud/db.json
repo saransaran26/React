@@ -1,0 +1,18 @@
+{
+  "fruits": [
+    {
+      "name": "Apples",
+      "quantity": 2,
+      "cost": 350,
+      "imageurl": "https://www.melissas.com/cdn/shop/products/image-of-lady-alice-apples-fruit-14764478464044_400x400.jpg?v=1616954466",
+      "id": 1
+    },
+    {
+      "name": "Graphes",
+      "quantity": 3,
+      "cost": 310,
+      "imageurl": "https://img.shpy.in/275981/1669291581864_SKU-0013_0?",
+      "id": 3
+    }
+  ]
+}

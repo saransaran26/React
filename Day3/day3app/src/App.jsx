@@ -2,17 +2,20 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Pratice from './Pratice'
+import Parent from './Parent'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
-  const changed = () =>{
-    setCount(count+1)
-  }
+  // const changed = () =>{
+  //   setCount(count+1)
+  // }
 
   return (
     <>
-      
+      {/* <Pratice></Pratice> */}
+      <Pratice></Pratice>
     </>
   )
 }

@@ -4,18 +4,24 @@
 
  import './App.css'
 import ChangeName from './ChangeName'
-import SetName from './SetName'
-import {HandleName} from './CricketContext'
-import Robot from './Robot'
+import {CricketProvider} from './CricketContext'
+// import setName from './setName'
+import {CricketContext} from './CricketContext'
+import Newvalue from './Newvalue'
+
 
 
 function App() {
   
 
   return (
-   <>
-   <Robot></Robot>
-   </>
+   <CricketProvider>
+    <div>
+    <h1>Starts here</h1>
+    <Newvalue></Newvalue>
+    <ChangeName></ChangeName>
+    </div>
+   </CricketProvider>
     
   )
 }

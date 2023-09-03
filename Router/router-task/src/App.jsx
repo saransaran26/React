@@ -2,14 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {BrowserRouter as Router,Link,Route,Routes} from 'react-router-dom'
+import {BrowserRouter as Router,Link,Route,Routes, useParams} from 'react-router-dom'
 import Home from './Home'
 import Contact from './Contact'
 import About from './About'
 import Animal from './Animal'
 
 function App() {
-  
 
   return (
     <Router>
@@ -42,3 +41,6 @@ function App() {
 }
 
 export default App
+
+
+

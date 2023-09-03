@@ -1,15 +1,16 @@
 import React from 'react'
 import { useContext } from 'react'
-import { NameContext } from './CricketContext'
+import { CricketContext} from './CricketContext'
 
 function ChangeName() {
-  const{setNames} = useContext(NameContext)
-  const handlehere = (data) =>{
-    setNames(data)
+  const {setcount} = useContext(CricketContext)
+  const{count} = useContext(CricketContext)
+  const handleInc = (val) => {
+    setcount(val)
   }
   return (
     <div>
-      <button onClick={()=>handlehere("tamil")}>click to change Name</button>
+      <button onClick={()=>handleInc(count+1)}>Increment</button>
     </div>
   )
 }

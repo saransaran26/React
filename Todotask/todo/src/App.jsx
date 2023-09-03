@@ -132,3 +132,7 @@ function App() {
 export default App
 
 
+// useEffect(()=>{
+//   const saveddata = JSON.parse(localStorage.getItem('info'))
+//   setValue(saveddata)
+// },[])

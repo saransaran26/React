@@ -8,9 +8,11 @@ function Pratice() {
     useEffect(()=>{
         fetch(url)
             .then((data)=>{
+                console.log("data",data);
                 return data.json()
             })
             .then((response)=>{
+                console.log("response",response);
                 setdata(response)
                 setloading(false)
             })
@@ -28,13 +30,15 @@ function Pratice() {
   return (
     <div>
     <h1>Pratice</h1>
-    {/* <p key={item.id}>{item.map(()=>{
-        return item.username
-    })}</p> */}
-    <ul>
-        <li key={response.id}>{response.map(()=>{
-            return response.username
+    {/* <ul>
+        <li key={data.id}>{data.map((item,index)=>{
+            return item.username + " "
         })}</li>
+    </ul> */}
+    <ul>
+        {data.map((item,index)=>{
+            return <li>names are: {item.title}</li>
+        })}
     </ul>
     </div>
   )

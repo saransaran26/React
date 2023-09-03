@@ -5,3 +5,25 @@ h1{
   color:red;
   text-align: center;
 }
+.fullform{
+  display: flex;
+  flex-direction: column;
+}
+/* .output{
+  background-color: gray;
+} */
+.fullform button{
+  display: flex;
+  width:80px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+/* #firstName,#lastName,#ISBN,#date{
+  width: 65%;
+  margin-top: 5px;
+  height: 35px;
+} */
+.fullform label{
+  margin-top: 15px;
+}

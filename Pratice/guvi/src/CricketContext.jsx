@@ -1,15 +1,16 @@
-import React,{createContext,useContext,useState} from 'react'
+import React from 'react'
+import { useState } from 'react'
+import { createContext } from 'react'
 
-const NameContext = createContext()
+const CricketContext = createContext()
 
-function HandleName({children}){
-    const[names,setNames] = useState("SARAN")
-
-    return (
-        <NameContext.Provider value={{names,setNames}}>
-            {children}
-        </NameContext.Provider>
-    )
+function CricketProvider({children}) {
+    const[count,setcount] = useState(0)
+  return (
+   <CricketContext.Provider value={{count,setcount}}>
+    {children}
+   </CricketContext.Provider>
+  )
 }
 
-export {NameContext,HandleName}
+export { CricketContext, CricketProvider }
