@@ -14,21 +14,27 @@ function Allpages() {
     const navigate = useNavigate()
 
     useEffect(()=>{
-        axios.get("http://localhost:4000/fruits").then((response)=>{
+        axios.get("https://64f4b36e932537f4051a9e29.mockapi.io/Task").then((response)=>{
+          console.log(response.data);
             setFruits(response.data)
         })
     },[])
 
     const handleDelete = (id) =>{
+      console.log(typeof id);
+       const ids = parseInt(id)
+       console.log(typeof ids);
         setShow(true)
-        setitemiddelete(id)
+        setitemiddelete(ids)
     }
     const handlemodelclose = () => {
         setShow(false)
         setitemiddelete(0)
     }
+    // ${itemiddelete}
    const handledeleteclose = () => {
-        axios.delete(`http://localhost:4000/fruits/${itemiddelete}`)
+    console.log("Deleted Double");
+        axios.delete(`https://64f4b36e932537f4051a9e29.mockapi.io/Task/${itemiddelete}`)
         .then(()=>{
             setFruits((previousState) => {
                 return previousState.filter(_ => _.id !== itemiddelete);

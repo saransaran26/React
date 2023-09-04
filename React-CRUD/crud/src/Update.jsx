@@ -23,16 +23,21 @@ function Update() {
             cost:cost.current.value ? Number(cost.current.value) : 0,
             imageurl:images.current.value
         }
-        axios.put(`http://localhost:4000/fruits/${id}`,payload)
+        const ids = parseInt(id)
+        axios.put(`https://64f4b36e932537f4051a9e29.mockapi.io/Task/:${ids}`,payload)
         .then(()=>{
             navigate("/")
         })
     }
 
     useEffect(()=>{
-        axios.get(`http://localhost:4000/fruits/${id}`)
+      const ids = parseInt(id)
+      console.log(typeof ids);
+      console.log(ids);
+        axios.get(`https://64f4b36e932537f4051a9e29.mockapi.io/Task/:${ids}`)
         .then((response)=>{
             fruitname.current.value = response.data.name
+            console.log(fruitname.current.value);
             quantity.current.value = response.data.quantity
             cost.current.value = response.data.cost
             images.current.value = response.data.imageurl

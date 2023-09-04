@@ -20,7 +20,7 @@ function Forms() {
             cost:cost.current.value ? Number(cost.current.value) : 0,
             imageurl:images.current.value
         }
-        axios.post("http://localhost:4000/fruits",payload)
+        axios.post("https://64f4b36e932537f4051a9e29.mockapi.io/Task",payload)
         .then(()=>{
             navigate("/")
         })
