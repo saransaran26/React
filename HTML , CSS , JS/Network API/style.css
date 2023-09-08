@@ -1,0 +1,28 @@
+h5{
+    text-align: center;
+}
+h1{
+    font-size: 78px;
+    color: red;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:blueviolet;
+}
+.card{
+    width: 25rem;
+    height: auto;
+    margin: 5px 25px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.5),
+                inset 3px 3px 10px rgba(0,0,0,.5);
+}
+
+.card:hover{
+    box-shadow: inset 12px 12px 10px rgba(0,0,0,.5),
+                -3px -3px 10px rgba(0,0,0,.5);
+
+}

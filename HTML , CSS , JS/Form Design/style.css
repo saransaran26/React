@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.store{
+    background-color: gray;
+    height: 700px;
+}
+span{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.firstname{
+    margin-top: 30px;
+}
+h1{
+    color: green;
+}
+label{
+    font-weight: 600;
+}
+.button{
+    background-color: blue;
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <div class="col-lg-7 col-md-7 col-12">
+                <h1 class="mt-5 ml-5">Your Information</h1>
+                <div class="store ml-lg-5 mt-5"><br>
+                    <div class="firstname ml-2 mt-5"><span>First name : </span></div><br><br>
+                    <div class="ml-2 lastname"><span >Last name : </span></div><br><br>
+                    <div class="ml-2 address1"><span >Address Line 1 : </span></div><br><br>
+                    <div class="ml-2 address2"><span >Address Line 2: </span></div><br><br>
+                    <div class="ml-2 gender"><span >Gender : </span></div><br><br>
+                    <div class="ml-2 food"><span >Choosed Food : </span></div><br><br>
+                    <div class="ml-2 email"><span >Email : </span></div><br><br>
+                    <div class="ml-2 number"><span>Phone Number : </span></div><br><br>
+                </div>
+            </div> */

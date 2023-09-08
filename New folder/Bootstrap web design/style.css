@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(194, 193, 193);
+}
+
+.box1{
+    background-color: whitesmoke;
+    padding: 40px 8px;
+}
+.row{
+    margin-top: 20px;
+}
+.box{
+    margin-top: 50px;
+}
+.fa{
+    color:rgb(87, 87, 229);
+}
+.text{
+    margin-bottom: 10px;
+}
+a{
+    border-bottom: 1px solid blue;
+}
+h4{
+    margin-bottom: 16px;
+}
+.youtube{
+    color:red;
+}
+.github{
+    color:black;
+}
+

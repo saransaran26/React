@@ -1,0 +1,58 @@
+.photo{
+    width:120px;
+    height:120px;
+    border-radius: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 10px;
+}
+
+.main{
+    margin-top: 20px;
+}
+
+.main p,a{
+    margin-left: 30px;
+}
+
+a{
+    color:white;
+    border-bottom: 2px solid white;
+}
+
+a:hover{
+    color:bisque
+}
+
+i{
+    margin-right: 10px;
+}
+
+.container{
+    border:1px solid black;
+    margin-top: 10px;
+}
+
+.one{
+    border:1px solid blue;
+    background-color: rgb(51, 51, 130);
+    color:white;
+}
+
+.two,.three,.four,.five,.six{
+    background-color: whitesmoke;
+}
+
+h5,h6{
+    color:rgb(51, 51, 130);
+}
+
+.summary{
+    margin-top: 10px;
+}
+
+h5{
+    border-bottom:2px solid black;
+}
