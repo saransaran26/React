@@ -22,7 +22,6 @@ Ans : db.collection.find({
     }
   }
 })
-
 Ques 4 : List the four product which are grater than 500 in price ?
 
 Ans: db.collection.find({
