@@ -66,5 +66,4 @@ Ans : db.collection.find({
 })
 
 Ques 10 : Delete the products which product price value are same ?
-
 Ans : db.products.distinct("product_price")
