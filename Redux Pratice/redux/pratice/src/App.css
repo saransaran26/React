@@ -1,0 +1,34 @@
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+.inputs input{
+  width:70%;
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid black;
+}
+.buttons button{
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 8%;
+  padding: 13px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+} 
+.buttons .links{
+  margin-left: 30px;
+  text-decoration: none;
+  color: red;
+}
+.buttons .links:hover{
+  /* border: 2px solid black; */
+  /* text-decoration: aqua; */
+  color: gray;
+}
