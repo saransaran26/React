@@ -8,7 +8,6 @@ const PORT = 3000
 app.get("/",(req,res)=>{
     res.send("Hello from express")
 })
-
 app.get("/home",(req,res)=>{
     res.send("Hello from home page")
 })
